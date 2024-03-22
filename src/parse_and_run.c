@@ -7,6 +7,7 @@
 #define JSON_TOKENS 256
 #define PATH_TO_JSON "../data/output/flat_tree.json"
 
+//substring
 char *substring(const char *string, int start, int end)
 {
     int length = end - start;
